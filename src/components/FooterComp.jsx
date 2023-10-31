@@ -13,7 +13,7 @@ function FooterComp() {
                 alt="company Logo"
                 href="."
                 name="Business Web"
-                src="https://flowbite.com/docs/images/logo.svg"
+                src="images/logo.png"
               />
             </div>
             <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
