@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Navbar } from "flowbite-react";
 
-function Navbar() {
+function NavBar() {
   return (
     <>
       <Navbar fluid rounded>
@@ -33,4 +33,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
