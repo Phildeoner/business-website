@@ -7,7 +7,7 @@ function NavBar() {
       <Navbar fluid rounded className="shadow-md bg-gray-100">
         <Navbar.Brand href=".">
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
+            src="images/logo.png"
             className="mr-3 h-6 sm:h-9"
             alt="Company Logo"
           />
