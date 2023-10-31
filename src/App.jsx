@@ -7,7 +7,12 @@ function App() {
   return (
     <>
       <NavBar />
-      <BigCarousel />
+      <div className="relative">
+        <BigCarousel />
+        <h1 className="absolute text-6xl top-[40%] left-[20%] z-20 font-bold text-red-600 drop-shadow-lg">
+          WELCOME TO BUSINESS WEB
+        </h1>
+      </div>
       <FooterComp />
     </>
   );

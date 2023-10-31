@@ -4,7 +4,7 @@ import { Button, Navbar } from "flowbite-react";
 function NavBar() {
   return (
     <>
-      <Navbar fluid rounded className="shadow-md bg-gray-100">
+      <Navbar fluid rounded className="shadow-md bg-gray-100 fixed z-30 w-full">
         <Navbar.Brand href=".">
           <img
             src="images/logo.png"
