@@ -4,16 +4,11 @@ import { Carousel } from "flowbite-react";
 function BigCarousel() {
   return (
     <>
-      <Carousel onSlideChange={(slideIdx) => console.log(slideIdx)}>
-        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-          Slide 1
-        </div>
-        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-          Slide 2
-        </div>
-        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-          Slide 3
-        </div>
+      <Carousel className="h-[100vh] ">
+        <img className="w-full h-full" alt="..." src="/images/home.jpg" />
+        <img className="w-full h-full" alt="..." src="images/home1.jpg" />
+        <img className="w-full h-full" alt="..." src="images/home2.jpg" />
+        <img className="w-full h-full" alt="..." src="images/home3.jpg" />
       </Carousel>
     </>
   );
