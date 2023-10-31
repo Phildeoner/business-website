@@ -1,12 +1,6 @@
 import React from "react";
 import { Footer } from "flowbite-react";
-import {
-  BsDribble,
-  BsFacebook,
-  BsGithub,
-  BsInstagram,
-  BsTwitter,
-} from "react-icons/bs";
+import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 
 function FooterComp() {
   return (
@@ -16,32 +10,34 @@ function FooterComp() {
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div>
               <Footer.Brand
-                alt="Flowbite Logo"
+                alt="company Logo"
                 href="https://flowbite.com"
-                name="Flowbite"
+                name="Business Web"
                 src="https://flowbite.com/docs/images/logo.svg"
               />
             </div>
             <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
               <div>
-                <Footer.Title title="about" />
+                <Footer.Title title="About" />
                 <Footer.LinkGroup col>
-                  <Footer.Link href="#">Flowbite</Footer.Link>
-                  <Footer.Link href="#">Tailwind CSS</Footer.Link>
+                  <Footer.Link href="#">Our Vision</Footer.Link>
+                  <Footer.Link href="#">Our Mission</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
                 <Footer.Title title="Follow us" />
                 <Footer.LinkGroup col>
-                  <Footer.Link href="#">Github</Footer.Link>
-                  <Footer.Link href="#">Discord</Footer.Link>
+                  <Footer.Link href="#">Facebook</Footer.Link>
+                  <Footer.Link href="#">Instagram</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
-                <Footer.Title title="Legal" />
+                <Footer.Title title="Contact" />
                 <Footer.LinkGroup col>
-                  <Footer.Link href="#">Privacy Policy</Footer.Link>
-                  <Footer.Link href="#">Terms & Conditions</Footer.Link>
+                  <Footer.Link href="#">
+                    Email: businessWeb@gmail.com
+                  </Footer.Link>
+                  <Footer.Link href="#">Mobile: 08095654321</Footer.Link>
                 </Footer.LinkGroup>
               </div>
             </div>
@@ -54,7 +50,6 @@ function FooterComp() {
               <Footer.Icon href="#" icon={BsInstagram} />
               <Footer.Icon href="#" icon={BsTwitter} />
               <Footer.Icon href="#" icon={BsGithub} />
-              <Footer.Icon href="#" icon={BsDribbble} />
             </div>
           </div>
         </div>
