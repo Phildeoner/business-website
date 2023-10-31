@@ -5,13 +5,13 @@ import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 function FooterComp() {
   return (
     <>
-      <Footer container>
+      <Footer container className="bg-gray-100">
         <div className="w-full">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div>
               <Footer.Brand
                 alt="company Logo"
-                href="https://flowbite.com"
+                href="."
                 name="Business Web"
                 src="https://flowbite.com/docs/images/logo.svg"
               />
@@ -44,7 +44,7 @@ function FooterComp() {
           </div>
           <Footer.Divider />
           <div className="w-full sm:flex sm:items-center sm:justify-between">
-            <Footer.Copyright by="Flowbite™" href="#" year={2022} />
+            <Footer.Copyright by="Business-Web™" href="#" year={2023} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
               <Footer.Icon href="#" icon={BsFacebook} />
               <Footer.Icon href="#" icon={BsInstagram} />

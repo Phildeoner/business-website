@@ -5,9 +5,9 @@ function NavBar() {
   return (
     <>
       <Navbar fluid rounded className="shadow-md bg-gray-100">
-        <Navbar.Brand href="https://flowbite-react.com">
+        <Navbar.Brand href=".">
           <img
-            src="/favicon.svg"
+            src="https://flowbite.com/docs/images/logo.svg"
             className="mr-3 h-6 sm:h-9"
             alt="Company Logo"
           />
