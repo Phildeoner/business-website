@@ -1,19 +1,21 @@
 import React from "react";
-import NavBar from "./components/NavBar";
-import FooterComp from "./components/FooterComp";
+import MainLayout from "./layouts/MainLayout";
 import BigCarousel from "./components/BigCarousel";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <div className="relative">
-        <BigCarousel />
-        <h1 className="absolute text-6xl top-[40%] left-[20%] z-20 font-bold text-red-600 drop-shadow-lg">
-          WELCOME TO BUSINESS WEB
-        </h1>
-      </div>
-      <FooterComp />
+      <MainLayout>
+        <div className="relative">
+          <BigCarousel />
+
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h1 className="text-6xl text-center z-20 font-bold text-red-600 drop-shadow-lg">
+              WELCOME TO BUSINESS WEB
+            </h1>
+          </div>
+        </div>
+      </MainLayout>
     </>
   );
 }

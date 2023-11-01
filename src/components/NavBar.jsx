@@ -11,7 +11,7 @@ function NavBar() {
             className="mr-3 h-6 sm:h-9"
             alt="Company Logo"
           />
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+          <span className="self-center whitespace-nowrap text-2xl font-bold dark:text-white text-red-600">
             Business Web
           </span>
         </Navbar.Brand>
